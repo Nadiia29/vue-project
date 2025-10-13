@@ -1,0 +1,10 @@
+{
+	"extends": "@vue/tsconfig/tsconfig.json",
+	"include": ["src/**/*", "env.d.ts"],
+	"compilerOptions": {
+		"strict": true,
+		"isolatedModules": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true
+	}
+}

@@ -1,0 +1,70 @@
+/* Світла тема (за замовчуванням) */
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	margin: 0;
+	background: radial-gradient(circle, rgba(34, 149, 195, 1) 0%, rgb(204, 238, 102) 100%);
+	transition: background 0.4s, color 0.4s;
+}
+.card,
+.user {
+	background: radial-gradient(circle, #2dfd79 0%, #2295c3 100%);
+	color: #222;
+	border: 1px solid #21bc5a;
+	transition: background 0.4s, color 0.4s, border 0.4s;
+}
+
+/* Темна тема */
+body.dark-theme {
+	background: radial-gradient(circle, #4d4c4c 0%, #12508a 100%);
+	color: #fff;
+}
+body.dark-theme nav a,
+body.dark-theme h2 {
+	color: #39a5e8;
+}
+
+body.dark-theme .user-table th,
+body.dark-theme .btn.edit {
+	background: #294a9c;
+}
+
+body.dark-theme .btn.edit:hover {
+	background: #238ef3;
+}
+
+body.dark-theme .theme-toggle {
+	background: linear-gradient(to bottom, #777676 0%, #238ef3 100%);
+	color: #fff;
+}
+
+body.dark-theme .card,
+body.dark-theme .user {
+	background: linear-gradient(to bottom, #777676 0%, #238ef3 100%);
+	color: #eee;
+	border: 1px solid #666;
+}
+
+body.dark-theme h3,
+body.dark-theme .card_items {
+	color: #eee;
+}
+
+body.dark-theme button {
+	background: linear-gradient(to bottom, #969595 0%, #451e84 100%);
+}
+
+body.dark-theme button:hover {
+	background: linear-gradient(to bottom, #9e9d9d 0%, #294a9c 100%);
+}
+
+body.dark-theme .dashboard {
+	color: #222;
+}
+
+body.dark-theme .modal,
+body.dark-theme .modal h3 {
+	color: #222;
+}
