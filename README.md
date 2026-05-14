@@ -33,7 +33,7 @@ Vue App: User Tech & AI Preferences Dashboard
 
 ## 🗂️ Дашборд з таблицею користувачів та діями (Edit/Delete)
 
-## 🌗 Перемикач теми (☀️ Light / 🌙 Dark — якщо реалізовано)
+## 🌗 Перемикач теми (☀️ Light / 🌙 Dark)
 
 ## 🔒 Реєстрація
 
